@@ -1,5 +1,6 @@
 Flask
 flask-cors
-checkout-sdk-python
+checkout_sdk
 Deprecated
 requests
+gunicorn
