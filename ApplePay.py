@@ -13,7 +13,7 @@ import json, datetime, traceback, os, requests, uuid, traceback
 app = Flask(__name__)
 app.config["DEBUG"] = True
 # change domain
-CORS(app, origins=["https://react-frontend-elpl.onrender.com", "https://react-flask-project-kpyi.onrender.com"]) #Frontend is running on https://
+CORS(app, origins=["https://applepay-flow.onrender.com"]) #Frontend is running on https://
 # These will be loaded from your .env file locally, or from Render's environment settings in production
 CHECKOUT_SECRET_KEY = os.environ.get('CHECKOUT_SECRET_KEY')
 CHECKOUT_PUBLIC_KEY = os.environ.get('CHECKOUT_PUBLIC_KEY')
