@@ -1,8 +1,9 @@
 # Apple Pay session - Tokenize and Pay
-from flask import Flask, jsonify, requests, send_from_directory
+from flask import Flask, jsonify, request, send_from_directory
 from flask_cors import CORS
 from checkout_sdk import CheckoutSdk
 from checkout_sdk.environment import Environment
+from checkout_sdk.payments.contexts.contexts import PaymentContextsRequest
 import json, datetime, traceback, os, requests, uuid, traceback
 
 app = Flask(__name__)
