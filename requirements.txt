@@ -3,3 +3,4 @@ flask-cors
 checkout_sdk
 Deprecated
 requests
+gunicorn
