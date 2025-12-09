@@ -3,7 +3,11 @@ from flask import Flask, jsonify, request, send_from_directory
 from flask_cors import CORS
 from checkout_sdk import CheckoutSdk
 from checkout_sdk.environment import Environment
+from checkout_sdk.default_sdk import DefaultSdk
+from checkout_sdk.checkout_api import CheckoutApi
 from checkout_sdk.payments.contexts.contexts import PaymentContextsRequest
+from checkout_sdk.payments.contexts.contexts_client import PaymentContextsClient
+from deprecated import deprecated
 import json, datetime, traceback, os, requests, uuid, traceback
 
 app = Flask(__name__)
