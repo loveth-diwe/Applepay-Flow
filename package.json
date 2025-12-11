@@ -1,15 +1,21 @@
 {
-  "name": "flow-components-example",
+  "name": "applepay-flow",
   "version": "1.0.0",
-  "description": "An example Flow implementation",
+  "description": "Apple Pay Flow with Flask and React",
   "main": "ApplePay.js",
   "scripts": {
-    "start": "node ApplePay.js"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "author": "checkout.com",
-  "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "node-fetch": "^2.6.12"
+    "node-fetch": "^2.6.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "axios": "^1.6.8",
+    "react-toastify": "^10.0.5"
   }
 }
