@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import ApplePay from './Applepay'; // Note: Ensure this file name matches your component file!
+import ApplePay from './ApplePay'; // Note: Ensure this file name matches your component file!
 import 'react-toastify/dist/ReactToastify.css'; // Add CSS for react-toastify
 
 // 1. Get the root element from index.html
