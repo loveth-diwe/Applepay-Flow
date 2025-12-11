@@ -10,7 +10,8 @@ from checkout_sdk.payments.contexts.contexts_client import PaymentContextsClient
 from deprecated import deprecated
 import json, datetime, traceback, os, requests, uuid, traceback
 
-app = Flask(__name__)
+#app = Flask(__name__)---commented out 11/12/2025
+app = Flask(__name__, static_folder='build/static', template_folder='build')
 app.config["DEBUG"] = True
 # change domain
 CORS(app, origins=["https://applepay-flow.onrender.com"]) #Frontend is running on https://
