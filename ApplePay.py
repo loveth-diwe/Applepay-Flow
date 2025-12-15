@@ -10,7 +10,7 @@ from checkout_sdk.payments.contexts.contexts_client import PaymentContextsClient
 from deprecated import deprecated
 import json, datetime, traceback, os, requests, uuid, traceback
 
-#app = Flask(__name__)---commented out 11/12/2025
+#app = Flask(__name__)---commented out 11/12/2025-Loveth
 app = Flask(__name__, static_folder='build/static', template_folder='build')
 app.config["DEBUG"] = True
 # change domain
@@ -32,7 +32,7 @@ payments_client = checkout_api.payments
 # Test to show FE and BE communicating ff
 @app.route('/')
 def get_data():
-    #return jsonify({"message": "Hello from Flask!"})-----Commented 11/1225
+    #return jsonify({"message": "Hello from Flask!"})-----Commented 11/12/25-Loveth
     return render_template('index.html')
 #Route for verify domain with apple pay file.
 @app.route('/.well-known/apple-developer-merchantid-domain-association.txt')
