@@ -10,7 +10,7 @@ const defaultConfig = {
     countryCode: 'GB',
     supportedNetworks: ['masterCard', 'visa', 'amex'],
     merchantCapabilities: ['supports3DS'],
-    initiativeContext: 'applepay-flow.onrender.com',
+    initiativeContext: 'apm-test-c5yi.onrender.com',
     merchantIdentifier: 'merchant.com.reactFlask.sandbox',
     displayName: 'My Awesome Store',
     paymentMode: 'processPayment',
